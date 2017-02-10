@@ -10,10 +10,12 @@
 <div class="container">
     <h1 class="center">Kenneth Cordero</h1>
     <hr>
-    <div id="about-me">
-        <h4>About Me</h4>
-        <p>Welcome to my site. I'm Ken and I live in Chicagoland with my wife and two kids.</p>
-        <p>I enjoy playing classical guitar in my ever-diminishing spare time.</p>
+    <div class="col-md-6 col-md-offset-3">
+        <h4 class="center">About Me</h4>
+        <div>Welcome to my site. I'm Ken and I live in Chicagoland with my wife and two kids.
+            I'm a software developer these days, but my first love was the classical guitar.
+            I'm currently pursuing my Master's degree in Information Management Systems.</div>
+
     </div>
     <div class="center">
         <img src="/images/me.jpg" alt="Me">
