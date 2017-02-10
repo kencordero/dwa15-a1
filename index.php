@@ -17,7 +17,10 @@
     <div id="image">
         <img src="/images/me.jpg" alt="Me">
     </div>
-    <div id="quote">
-        <p><?= $random_quote ?></p>
+    <hr>
+    <div class="center">
+        <h4>Random Quote</h4>
+        <div class="italic"><?= $random_quote['quote'] ?></div>
+        <div>- <?= $random_quote['attribution'] ?></div>
     </div>
 </div>
